@@ -19,6 +19,35 @@ ul {
   padding: 0;
 }
 
+ol {
+  text-align: center;
+}
+
 li {
   margin: .25em;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+.wrap-img-right {
+  float:right;
+  margin-right: 014px 15px 20px 0;
+  width: 200px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  display:inline-block;
+  margin-top: 10px;
+  font-weight: bold;
 }
