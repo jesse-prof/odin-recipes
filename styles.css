@@ -20,11 +20,19 @@ ul {
 }
 
 ol {
+  list-style-position: inside;
+  list-style-type: decimal;
   text-align: center;
 }
 
 li {
-  margin: .25em;
+  margin: .5em auto;
+}
+
+#mtzaball {
+  display: block;
+  width: 500px;
+  margin: 10px auto;
 }
 
 .center-img {
@@ -50,6 +58,14 @@ p {
 
 a {
   display:inline-block;
-  margin-top: 10px;
+  padding: 20px;
   font-weight: bold;
+}
+
+#homepageList a{
+  padding: 0px;
+}
+
+#homepageRecipe {
+  margin: 15px auto;
 }
